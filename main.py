@@ -16,3 +16,10 @@ if __name__ == "__main__":
   while counter < max:
     print(counter)
     counter += 1
+
+  # 2) Using the Python while statement to build a simple command prompt program
+
+  command = ""
+  while command.lower() != "quit":
+    command = input(">")
+    print(f"Echo: ${command}")
